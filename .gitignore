@@ -1,0 +1,4 @@
+__paycahce__/
+	.vscode/
+	venv/
+	db.sqlite3
