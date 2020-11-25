@@ -1,0 +1,216 @@
+  
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    height: auto;
+}
+
+header{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-size: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    padding: 10% 0% 0% 0%;
+}
+
+section {
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+    background-image: url('../images/chris.jpg'); 
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.45);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+.navbar-light .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(226, 60, 60);
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+} 
+
+a:hover {
+    color: grey;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+.head{
+    text-align: center;
+    position: relative;
+}
+
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+
+}
+
+.content{
+    max-height: 500px;
+    word-spacing: -.31em;
+    /* border-style: solid;
+    border-color: black; */
+}
+
+.collumn{
+    font-size: 14px;
+    padding: 10%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 05px;
+}
+
+hr {
+    color: white;
+    background-color: white;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.45);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .title {
+    font-family: 'Lora', serif;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.image {
+    max-height: 550px;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: grayscale(100);
+    background-image: url("https://images.unsplash.com/photo-1564186763535-ebb21ef5277f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")
+}
+
+.color {
+    background-color: rgb(226, 60, 60);
+    color: white;
+}
+
+.padding {
+    padding: 5px;
+}
+
+
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    padding: 05% 02% 05% 02%;
+    color: rgb(226, 60, 60);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*________________________________________________________________________________________________________________________________*/
+/*MEDIAQUERIES*/
+
+@media only all and (max-width: 1080px) {
+    .subhead{
+        font-size: 20px;
+    }
+    .navbar-item, .nav-link, a {
+        font-size: 20px;
+    }
+}
+
+
+@media only all and (max-width: 1200px) {
+    .collumn{
+        width: 100%;
+        padding: 05%;
+    }
+
+}
+    @media only all and (max-width: 900px) {
+    .collumn{
+        width: 100%;
+        padding: 05%;
+    }
+    
+
+
+}
+@media only all and (max-width: 600px) {
+    .collumn{
+        width: 100%;
+        padding: 05%;
+    }
+   
+
+   
+header{
+        max-width: 320px;
+        font-size: 60px;
+        line-height: 54px;
+        overflow: hidden;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1080px) {
+    .collumn {width: 100%; font-size: 1.2rem;}
+    .footer {font-size: 1.2rem;
+    
+  }
+}
